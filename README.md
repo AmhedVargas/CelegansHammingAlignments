@@ -3,7 +3,7 @@ C++ code and preprocessing required to perform multiple short alignments on a pa
 
 # Structure of repository
 * src/read_mRNA_hamming_omp.cpp `c++ code that takes query sequences and aligns them versus a dictionary. The program only reports the number of hits up to 5MM, i.e. a distance equal to 5`
-* src/read_mRNA_hamming_omp_.cpp `c++ code that takes query sequences and aligns them versus a dictionary. The program reports the full matrix of alignements; please be conscious about RAM limitations`
+* src/read_mRNA_hamming_omp_fm.cpp `c++ code that takes query sequences and aligns them versus a dictionary. The program reports the full matrix of alignements; please be conscious about RAM limitations`
 * examples/queries.txt
 * examples/dictionary.txt
 
