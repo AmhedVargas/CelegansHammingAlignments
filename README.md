@@ -1,5 +1,5 @@
 # *C. elegans* Hamming Alignments
-C++ code and preprocessing required to perform multiple short alignments on a parallel computing cluster.
+C++ code that allows the calculation of the hamming distance on a parallel schema.
 
 # Structure of repository
 * src/read_mRNA_hamming_omp.cpp `c++ code that takes query sequences and aligns them versus a dictionary. The program only reports the number of hits up to 5MM, i.e. a distance equal to 5`
